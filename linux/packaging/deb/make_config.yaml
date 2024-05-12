@@ -1,0 +1,33 @@
+display_name: AAB Tools
+package_name: apptools
+
+maintainer:
+  name: Deepak Sapkota
+  email: mail@sapkotadeepak.com.np
+
+priority: optional
+
+section: x11
+
+installed_size: 15700
+
+dependencies:
+
+essential: false
+
+icon: assets/img/logo.png
+
+postuninstall_scripts:
+  - echo "Sorry to see you go."
+
+keywords:
+  - AAB Tools
+  - AAB to APK
+
+generic_name: Development Utility
+
+categories:
+  - Development
+  - Utility
+
+startup_notify: true
